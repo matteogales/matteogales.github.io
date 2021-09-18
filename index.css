@@ -9,40 +9,6 @@ html
 }
 
 
-#login
-{
-    position: fixed;
-    right: 180px;
-    top: 20px;
-    height:40px;
-    padding: 5px;
-    background-color: Transparent;
-    border: 0px dotted black;
-    font-size: 30px;
-    font-weight: bold;
-    font-family: "Montserrat";
-    color: rgb(255, 255, 255);
-    cursor:pointer;
-}
-
-
-#signup
-{
-    position: fixed;
-    right: 40px;
-    top: 20px;
-    height:40px;
-    padding: 5px;
-    background-color: Transparent;
-    border: 0px dotted black;
-    font-size: 30px;
-    font-weight: bold;
-    font-family: "Montserrat";
-    color: rgb(255, 255, 255);
-    cursor:pointer;
-}
-
-
 #logo
 {
     position: fixed;

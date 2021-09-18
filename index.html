@@ -1,9 +1,36 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Example</title>
+        <title>Archipelagos: Harvesting climate intelligence.</title>
+
+        <!-- Load stylesheet for this page -->
+
+        <link rel="stylesheet" type="text/css" href="index.css">
     </head>
     <body>
-        <p>This is an example of a simple HTML page with one paragraph.</p>
+        <!-- Load React application -->
+        <div id="app"></div>
+
+        <!-- Load React libraries -->
+
+        <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+        <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+
+        <!-- Provide external JS files with the location of resources -->
+
+        <script>
+            var home_page_img = "index.png"
+        </script>
+
+        <!-- Load an external JS file as a static file -->
+
+        <script src="index.js"></script>
+
+        <!-- Insert the buttons and text that exist on the page -->
+
+        <div id="logo">archipelagos</div>
+        <div id="idot"><svg xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="12" fill="forestgreen"/></svg></div>
+
+        <div id="moto">Harvesting climate intelligence.</div>
     </body>
-</html
+</html>
